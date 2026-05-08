@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UTK Homecoming 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(to bottom,#fff4eb,#ffe2c2);
+    color:#333;
+}
+
+/* HEADER */
+
+.header{
+    background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.header h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.header p{
+    font-size:22px;
+}
+
+/* BROCHURE */
+
+.brochure{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    padding:40px;
+}
+
+/* CARDS */
+
+.card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:240px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card h2{
+    color:#ff8200;
+    margin-bottom:18px;
+    font-size:32px;
+}
+
+.event{
+    margin-bottom:18px;
+    padding-bottom:15px;
+    border-bottom:1px solid #eee;
+}
+
+.event h3{
+    color:#222;
+    margin-bottom:6px;
+}
+
+.event p{
+    line-height:1.5;
+}
+
+/* CONTACT */
+
+.contact{
+    background:#ff8200;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.contact h2{
+    color:white;
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+.footer{
+    background:#1c1c1c;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+.header h1{
+    font-size:38px;
+}
+
+.header p{
+    font-size:18px;
+}
+
+.brochure{
+    padding:20px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="header">
+    <h1>UTK Homecoming 2026</h1>
+    <p>¡Diversión para estudiantes y familias!</p>
+</div>
+
+<!-- BROCHURE -->
+
+<div class="brochure">
+
+    <!-- FRIDAY -->
+
+    <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2" alt="Football">
+
+        <div class="card-content">
+
+            <h2>Viernes</h2>
+
+            <div class="event">
+                <h3>🏈 Partido de fútbol</h3>
+                <p>
+                7:00 PM - Estadio Neyland<br>
+                Nosotros vamos al partido.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>💃 Baile escolar</h3>
+                <p>
+                9:00 PM - Gimnasio<br>
+                Los estudiantes prefieren el baile.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>🎬 Películas familiares</h3>
+                <p>
+                8:00 PM - Biblioteca<br>
+                Las familias tienen diversión.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SATURDAY -->
+
+    <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94" alt="Students">
+
+        <div class="card-content">
+
+            <h2>Sábado</h2>
+
+            <div class="event">
+                <h3>🥞 Desayuno gratis</h3>
+                <p>
+                9:00 AM - Cafetería<br>
+                Nosotros tenemos desayuno.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>🎶 Concierto</h3>
+                <p>
+                2:00 PM - Centro de eventos<br>
+                Los estudiantes prefieren música.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>🎮 Juegos</h3>
+                <p>
+                5:00 PM - Sala de juegos<br>
+                Los niños juegan videojuegos.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>🏊 Natación</h3>
+                <p>
+                3:00 PM - Piscina<br>
+                Los niños van a nadar.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SUNDAY -->
+
+    <div class="card">
+
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Picnic">
+
+        <div class="card-content">
+
+            <h2>Domingo</h2>
+
+            <div class="event">
+                <h3>🌳 Picnic familiar</h3>
+                <p>
+                12:00 PM - Parque UTK<br>
+                Las familias van al parque.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>🎨 Arte y música</h3>
+                <p>
+                2:00 PM - Centro estudiantil<br>
+                Los niños dibujan y escuchan música.
+                </p>
+            </div>
+
+            <div class="event">
+                <h3>🎉 Evento final</h3>
+                <p>
+                6:00 PM - Campus principal<br>
+                Nosotros vamos al evento final.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- CONTACT -->
+
+<div class="contact">
+
+    <h2>📞 Contacto</h2>
+
+    <p>Email: utkhomecoming@gmail.com</p>
+    <p>Teléfono: 865-555-2026</p>
+    <p>University of Tennessee Knoxville</p>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="footer">
+    <p><strong>UTK Homecoming 2026</strong></p>
+    <p>¡UTK tiene diversión para todos!</p>
+</div>
+
+</body>
+</html>
